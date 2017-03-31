@@ -26,6 +26,7 @@ import java.util.*;
  *
  * @author Sergey Tarasevich (nostra13[at]gmail[dot]com)
  * @since 1.0.0
+ * 利用'引用'将Bitmap包裹，从而避免内存溢出
  */
 public abstract class BaseMemoryCache implements MemoryCache {
 

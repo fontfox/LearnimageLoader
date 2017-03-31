@@ -39,7 +39,6 @@ public class UILApplication extends Application {
 		}
 
 		super.onCreate();
-
 		initImageLoader(getApplicationContext());
 	}
 
