@@ -30,7 +30,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * <br />
  * <b>NOTE:</b> This cache uses strong and weak references for stored Bitmaps. Strong references - for limited count of
  * Bitmaps (depends on cache size), weak references - for all other cached Bitmaps.
- *
+ *缓存使用了强引用和弱引用来存储Bitmap,强引用通过缓存尺寸的大小来限制Bitmap的存储，弱引用主要针对超过缓存尺寸的Bitmap的处理
  * @author Sergey Tarasevich (nostra13[at]gmail[dot]com)
  * @see BaseMemoryCache
  * @since 1.0.0
